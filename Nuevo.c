@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 /* Manejo de archivos en lenguaje c */
 /* Lectura de archivos */
@@ -23,6 +24,31 @@ while (feof(flujo) == 0){
 fclose(flujo);
 printf("\n\n Se ha leido el archivo correctamente..");
 
+char operator;
+  double firstNumber, secondNumber;
+
+  printf("Gasto cardiaco (*) : ");
+  scanf("%c", &operator);
+
+  printf("Colocar VS FC : ");
+  scanf("%lf %lf", &firstNumber, &secondNumber);
+
+  switch(operator)
+  {
+
+    case '*':
+      printf("sqrt(pow(%.1lf,2) * pow(%.1lf,2) = %.1lf\n", firstNumber, secondNumber, firstNumber * secondNumber);
+      break;
+
+    default:
+      printf("Operator is not correct");
+  }
+
+
+
 return 0;
 }
+
+
+
 
