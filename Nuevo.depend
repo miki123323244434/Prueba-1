@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
 1638333508 source:c:\users\josé miguel\documents\nuevo\nuevo 2.c
 
-1638334825 source:c:\users\josé miguel\documents\nuevo\nuevo.c
+1638857662 source:c:\users\josé miguel\documents\nuevo\nuevo.c
 	<stdio.h>
 	<stdlib.h>
+	<math.h>
 
